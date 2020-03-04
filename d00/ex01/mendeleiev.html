@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mendeleïev</title>
+		<style>
+			/* img {
+				float: left;
+				padding: 5px;;
+				width: 100px;
+			}
+			.images {
+				width: 440px;
+				text-align: center;
+				margin: auto;
+			} */
+			table td {
+  				border: 1px solid black;
+				position: relative;
+				text-align: center;
+				width: 55px;
+				height: 60px;
+				padding: 5px 5px 5px 5px;
+			}
+			table td .name {
+				text-align: center;
+				font-weight: bold;
+			}
+			table td .number {
+				position: absolute;
+				bottom: 5px;
+				left: 5px;
+				font-size: smaller;
+			}
+			table td .mass {
+				position: absolute;
+				top: 5px;
+				right: 5px;
+				font-size: smaller;
+			}
+			table .type td {
+				/* border: 1px solid black; */
+				position: relative;
+				text-align: center;
+				width: 55px;
+				height: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div class="images">
+			<img src="water.jpg">
+			<img src="earth.jpg">
+			<img src="air.jpg">
+			<img src="fire.jpg">
+		</div> -->
+		<br \>
+		<table align="center">
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">1</span>
+					<span class="mass">1.0079</span>
+				</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<span class="name">He</span>
+					<span class="number">2</span>
+					<span class="mass">4.0026</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">3</span>
+					<span class="mass">6.941</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">4</span>
+					<span class="mass">9.0122</span>
+				</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">5</span>
+					<span class="mass">10.811</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">6</span>
+					<span class="mass">12.0107</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">7</span>
+					<span class="mass">14.0067</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">8</span>
+					<span class="mass">15.9994</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">9</span>
+					<span class="mass">18.9984</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">10</span>
+					<span class="mass">20.1797</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">11</span>
+					<span class="mass">22.9897</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">12</span>
+					<span class="mass">24.305</span>
+				</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">13</span>
+					<span class="mass">26.9815</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">14</span>
+					<span class="mass">28.0855</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">15</span>
+					<span class="mass">30.9738</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">16</span>
+					<span class="mass">32.065</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">17</span>
+					<span class="mass">35.453</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">18</span>
+					<span class="mass">39.0983</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">19</span>
+					<span class="mass">39.948</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">20</span>
+					<span class="mass">40.078</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">21</span>
+					<span class="mass">44.9559</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">22</span>
+					<span class="mass">47.867</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">23</span>
+					<span class="mass">50.9415</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">24</span>
+					<span class="mass">51.9961</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">25</span>
+					<span class="mass">54.938</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">26</span>
+					<span class="mass">55.845</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">27</span>
+					<span class="mass">58.6934</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">28</span>
+					<span class="mass">58.9332</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">29</span>
+					<span class="mass">63.546</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">30</span>
+					<span class="mass">65.39</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">31</span>
+					<span class="mass">69.723</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">32</span>
+					<span class="mass">72.64</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">33</span>
+					<span class="mass">74.9216</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">34</span>
+					<span class="mass">78.96</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">35</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">36</span>
+					<span class="mass">1</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">37</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">38</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">39</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">40</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">41</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">42</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">43</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">44</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">45</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">46</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">47</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">48</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">49</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">50</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">51</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">52</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">53</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">54</span>
+					<span class="mass">1</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">55</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">56</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="number">57-71</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">72</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">73</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">74</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">75</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">76</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">77</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">78</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">79</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">80</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">81</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">82</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">83</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">84</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">85</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">86</span>
+					<span class="mass">1</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">87</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">88</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="number">89-103</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">104</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">105</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">106</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">107</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">108</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">109</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">110</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">111</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">112</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">113</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">114</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">115</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">116</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">117</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">118</span>
+					<span class="mass">1</span>
+				</td>
+			</tr>
+		</table>
+		<table id="lower" align="center">
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">37</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">38</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">39</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">40</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">41</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">37</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">38</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">39</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">40</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">41</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">37</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">38</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">39</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">40</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">41</span>
+					<span class="mass">1</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span class="name">H</span>
+					<span class="number">37</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">38</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">39</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">40</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">41</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">37</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">38</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">39</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">40</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">41</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">37</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">38</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">39</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">40</span>
+					<span class="mass">1</span>
+				</td>
+				<td>
+					<span class="name">H</span>
+					<span class="number">41</span>
+					<span class="mass">1</span>
+				</td>
+			</tr>
+		</table>
+		<table class="type">
+			<tr>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+				<td>
+					<span class="explanation">Alkali Metal</span>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
