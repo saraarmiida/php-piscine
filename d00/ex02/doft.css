@@ -1,0 +1,68 @@
+body {
+	background-color: #505050;
+}
+
+div:not(.wrapper){
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 7px black;
+}
+
+.wrapper {
+	box-align: center;
+	margin: 0 auto;
+	border-radius: 10px;
+	width:	80%;
+}
+
+.titlebar {
+	width: 1200px;
+	margin-top: 20px;
+	width:	100%;
+}
+
+.dayof {
+	width: 400px;
+	padding: 10px 10px 10px;
+}
+
+.reload {
+	width: 17px;
+	float: right;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+.close {
+	position: relative;
+	left: 17px;
+	bottom: 0px;
+	top: 100px;
+	width: 17px;
+	float: right;
+}
+
+ul {
+	list-style-type: none;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.sidebar {
+	width: 120px;
+}
+
+.sideimg{
+	width: 60px;
+	text-decoration: none;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.main {
+	width: 60%;
+}
+.mainimage {
+	width: 98.5%;
+	padding: 5px 5px 1px 5px;
+}
