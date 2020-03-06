@@ -3,45 +3,68 @@
 	<head>
 		<title>Day of the 42</title>
 		<link href="doft.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Nunito|Roboto+Slab&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<div class="wrapper">
-			<div class="titlebar">
-				<img class="dayof" src="resources/day_of_the_42.png">
-				<img class="reload" src="resources/reload.png">
-				<img class="close" src="resources/close.gif">
+		<div id="container">
+			<div class="wrapper">
+				<div class="titlebar">
+					<img class="dayof" src="resources/day_of_the_42.png">
+					<img class="reload" src="resources/reload.png">
+					<img class="close" src="resources/close.gif">
+				</div>
+				<div class="content" align="center">
+					<div id="leftside" class="sidebar">
+						<ul>
+							<li>
+								<img class="sideimg" src="resources/arrow.png" alt="Advance" title="Advance" href="">
+							</li>
+							<li>
+								<img class="sideimg" src="resources/main.png" alt="Take" title="Take">
+							</li>
+							<li>
+								<img class="look" src="resources/oeil.png" alt="Look" title="Look">
+							</li>
+							<li>
+								<img class="sideimg" src="resources/outil.png" alt="Use" title="Use">
+							</li>
+							<li>
+								<img class="sideimg" src="resources/chat-icon.png" alt="Speak" title="Speak">
+							</li>
+						</ul>
+					</div>
+					<div id="middle" class="main">
+						<img class="mainimage" src="resources/cluster.jpg">
+					</div>
+					<div id="rightside" class="sidebar">
+						<ul>
+							<li>
+								<img class="sideimg" src="resources/book.png">
+							</li>
+							<li>
+								<img class="sideimg" src="resources/towel.png">
+							</li>
+							<li>
+								<div class="brick"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="loupe">
+					<img src="resources/loupe.png">
+				</div>
 			</div>
-			<div class="sidebar">
-				<ul>
-					<li>
-						<a href="">
-							<img class="sideimg" src="resources/arrow.png" alt="Advance" title="Advance" href="">
-						</a>
-					</li>
-					<li>
-						<a href="">
-						<img class="sideimg" src="resources/main.png" alt="Advance" title="Take">
-						</a>
-					</li>
-					<li>
-						<a href="">
-						<img class="sideimg" src="resources/oeil.png" alt="Advance" title="Look">
-						</a>
-					</li>
-					<li>
-						<a href="">
-						<img class="sideimg" src="resources/outil.png" alt="Advance" title="Use">
-						</a>
-					</li>
-					<li>
-						<a href="">
-						<img class="sideimg" src="resources/chat-icon.png" alt="Advance" title="Speak">
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="main">
-				<img class="mainimage" src="resources/cluster.jpg">
+			<div class="greenbox">
+				<p>Vous <span class="entrez">entrez</span> alors dans une grande piece remplie
+					<br>
+					d'<span class="ordinateurs">ordinateurs</span>...
+					<br>
+					<i>- Bonjour, vous êtes nouveau ici ?</i>
+				</p>
+				<div class="contact">
+					<input type="text">
+					<input type="submit" value="Repondre">
+				</div>
 			</div>
 		</div>
 	</body>
