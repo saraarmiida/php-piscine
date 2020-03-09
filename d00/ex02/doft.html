@@ -10,8 +10,12 @@
 			<div class="wrapper">
 				<div class="titlebar">
 					<img class="dayof" src="resources/day_of_the_42.png">
-					<img class="reload" src="resources/reload.png">
-					<img class="close" src="resources/close.gif">
+					<a href="https://disney.com/">
+						<img class="reload" src="resources/reload.png" title="Start from the beginning">
+					</a>
+					<a href="https://www.relaischateaux.com/">
+						<img class="close" src="resources/close.gif">
+					</a>
 				</div>
 				<div class="content" align="center">
 					<div id="leftside" class="sidebar">
@@ -34,7 +38,12 @@
 						</ul>
 					</div>
 					<div id="middle" class="main">
-						<img class="mainimage" src="resources/cluster.jpg">
+						<img class="mainimage" src="resources/cluster.jpg" usemap="#mapname">
+
+						<map name="mapname">
+							<area shape="rect" coords="476,564,331,329" href="https://www.ikea.com/" title="Buy Chair">
+							<area shape="rect" coords="807,320,1009,499" href="https://www.apple.com/" title="Buy Mac">
+						</map>
 					</div>
 					<div id="rightside" class="sidebar">
 						<ul>

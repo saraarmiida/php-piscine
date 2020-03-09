@@ -1,0 +1,77 @@
+body {
+    background-color: #a5b7d1;
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+    margin-top: 200px;
+    display: inline-block;
+}
+.dropbtn {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+    background-color: #83a3d1;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 200px;
+    border-radius: 5px;
+    transition: all 0s;
+}
+.dropdown-content a {
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+.after {
+    display: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition-delay: 1s;
+}
+.dropdown:hover .dropbtn {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    content: "Here's your rainbow:)";
+}
+.dropdown:hover .before {
+    display: none;
+}
+.dropdown:hover .after {
+    display: inline;
+}
+.dropdown-content a:hover {
+    padding: 20px;
+}
+
+#red {
+    background-color: #f9ac93;
+}
+#orange {
+    background-color: #fed191;
+}
+#yellow {
+    background-color: #F6F399;
+}
+#green {
+    background-color: #a6d598;
+}
+#blue {
+    background-color: #9facd7;
+}
+#violet {
+    background-color: #af9bca;
+}
+#purple {
+    background-color: #cda0ca;
+}
+#pink {
+    background-color: #ed9dc4;
+}
