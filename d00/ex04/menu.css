@@ -37,16 +37,7 @@ body {
     display: block;
     transition-delay: 1s;
 }
-.dropdown:hover .dropbtn {
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    content: "Here's your rainbow:)";
-}
-.dropdown:hover .before {
-    display: none;
-}
-.dropdown:hover .after {
-    display: inline;
-}
+
 .dropdown-content a:hover {
     padding: 20px;
 }
