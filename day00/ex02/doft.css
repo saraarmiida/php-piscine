@@ -1,0 +1,143 @@
+body {
+	background-color: #505050;
+}
+.content div:not(.brick){
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 7px black;
+}
+div .titlebar {
+	background-color: #909090;
+	border-radius: 10px;
+	box-shadow: 10px 10px 7px black;
+}
+#container {
+	box-align: center;
+	position: relative;
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wrapper {
+	box-align: center;
+	margin: 0 auto;
+	width: 1422px;
+	height: 673px;
+	margin: 0 auto;
+}
+.titlebar {
+	margin-top: 20px;
+	width:	100%;
+	height: 20%;
+}
+.dayof {
+	width: 30%;
+	padding: 10px 10px 10px;
+}
+.content {
+	box-align: center;
+	width: 94%;
+	height: 80%;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 0px;
+}
+#leftside {
+	width: 10.3%;
+	height: 74%;
+	float: left;
+	margin-right: 18px;
+}
+#rightside {
+	width: 10.3%;
+	height: 74%;
+	float: right;
+	margin-left: 12px;
+}
+#middle {
+	float: left;
+	width: 76.8%;
+}
+.sideimg {
+	width: 65px;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+	text-align: center;
+}
+.look {
+	border: 5px solid red;
+	border-radius: 5px;
+	width: 65px;
+}
+.brick {
+	width: 100%;
+	height: 70px;
+	background-image: url("resources/brick.jpg");
+}
+.brick img {
+	display: block;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}
+.mainimage {
+	width: 98%;
+	padding: 7px 5px 5px 5px;
+}
+.reload {
+	width: 20px;
+	float: right;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.close {
+	position: relative;
+	left: 17px;
+	bottom: 0px;
+	top: 100px;
+	width: 19px;
+	float: right;
+}
+ul {
+	list-style-type: none;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+.greenbox {
+	border-radius: 10px;
+	box-shadow: 10px 10px 7px black;
+	background-color: #88ff89;
+	padding: 0px 10px 30px 10px;
+	width: fit-content;
+	height: 160px;
+	position: absolute;
+}
+.greenbox p {
+	font-family: 'Nanum Gothic', sans-serif;
+	margin: 0;
+}
+.entrez {
+	font-size: xx-large;
+	font-family: 'Georgia', serif;
+}
+.ordinateurs {
+	text-shadow: 5px 5px 3px rgb(196, 0, 0);
+}
+input[type=text] {
+	width: 400px;
+	height: 15px;
+	border: 2px inset white;
+}
+input[type=submit] {
+	height: 20px;
+	background-color: rgb(235, 235, 235);
+	border-radius: 2px;
+	border: 1px solid rgb(176, 176, 176);
+	background-image: linear-gradient(white, #ccc);
+	letter-spacing: 0.5px;
+}
+.loupe {
+	position: absolute;
+	top: 5px;
+	right: 70px;
+}
