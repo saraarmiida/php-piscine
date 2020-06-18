@@ -6,7 +6,8 @@ foreach($argv as $elem)
 {
 	if ($i++ > 1)
 	{
-		$tmp = array_filter(explode(" ", $elem));
+		$elem = preg_replace("/ +/", " ", $elem);
+		$tmp = explode(" ", $elem);
 		if ($tmp != "")
 			$arr = array_merge($arr, $tmp);
 	}

@@ -5,11 +5,11 @@
 include("ft_is_sort.php");
 // $tab = array("!/@#;^", "42", "hi", "Hello World", "zZzZzZz");
 // $tab[] = "What are we doing now ?";
-// $tab = array("1", "2", "9");
+// $tab = array("0", "2", "9");
 // print_r($tab);
 // sort($tab);
 // print_r($tab);
-$tab = array("c", "b");
+// $tab = array("b", "c");
 if (ft_is_sort($tab))
 echo "The array is sorted\n";
 else

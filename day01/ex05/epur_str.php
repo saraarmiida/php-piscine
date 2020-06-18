@@ -2,8 +2,7 @@
 <?php
 if ($argc != 2)
 	exit();
-$str = trim($argv[1]);
-$str = preg_replace("/ +/", " ", $str);
-if ($str)
+$str = preg_replace("/ +/", " ", trim($argv[1]));
+if (strlen($str) != 0)
 	echo "$str\n";
 ?>

@@ -27,7 +27,7 @@ foreach($argv as $elem)
 {
 	if ($i++ > 1)
 	{
-		$tmp = array_filter(explode(" ", $elem));
+		$tmp = preg_split("/ +/", trim($elem));
 		if ($tmp != "")
 			$arr = array_merge($arr, $tmp);
 	}
