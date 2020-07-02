@@ -1,0 +1,134 @@
+
+
+* {
+	font-family: 'Courier New', Courier, monospace !important;
+}
+
+.topbar {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline-block;
+}
+
+.topbar a {
+	text-decoration: none;
+	color: black;
+	font-size: large;
+	display: inline-block;
+}
+
+.topbar a:hover {
+	text-decoration: underline;
+}
+
+.user_info {
+	position: fixed;
+	top: 20px;
+	font-size: large;
+}
+
+
+.sidenav {
+	position: fixed;
+	padding-top: 20px;
+	padding-left: 10px;
+	display: block;
+	list-style-type: none;
+	top: 150px;
+}
+
+.sidenav a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 5px;
+	font-size: large;
+}
+
+.sidenav li:hover {
+	text-decoration: underline;
+}
+
+.orders {
+	display: block;
+	align-items: center;
+	width: 90%;
+	float: right;
+}
+
+.products {
+	display: none;
+	align-items: center;
+	width: 90%;
+	float: right;
+}
+
+.form_info .form_info_new {
+	margin: 5px;
+}
+
+.form_info_new {
+	width: 50%;
+	text-align: left;
+	overflow: hidden;
+	display: block;
+}
+
+.form_info_new input {
+	width: 90%;
+}
+
+.users {
+	display: none;
+	align-items: center;
+	position: relative;
+	width: 90%;
+	float: right;
+}
+
+.users p {
+	font-size: large;
+}
+
+.user {
+	width: 100%;
+	display: block;
+}
+
+.user input {
+	width: 200px;
+}
+
+table {
+	width: 70%;
+	margin-top: 60px;
+}
+
+tr {
+	text-align: center;
+}
+
+table, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table th {
+	position: relative;
+	text-align: center;
+	width: 1000px;
+	height: 45px;
+}
+
+.item {
+	display: inline-block;
+}
+.products img {
+	margin: 5px;
+	width: 150px;
+}
+
+input {
+	width: 100%;
+}
